@@ -1,3 +1,9 @@
+---
+layout: page
+title: Privacy Policy
+include_in_header: true
+---
+
 # Privacy Policy for uStor
 
 _Last Updated: April 27, 2024_
