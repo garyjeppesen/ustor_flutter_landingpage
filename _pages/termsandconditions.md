@@ -1,3 +1,9 @@
+---
+layout: page
+title: Terms & Conditions
+include_in_header: true
+---
+
 # Terms of Service for uStor
 
 _Last Updated: April 27, 2024_
