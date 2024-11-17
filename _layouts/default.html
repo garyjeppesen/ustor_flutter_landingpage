@@ -3,6 +3,13 @@
 
 {% include head.html %}
 
+<head>
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+    <!-- rest of your head content -->
+</head>
+    
 <body>
     <div class="imageWrapper">
             <div class="headerBackground">
