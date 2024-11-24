@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Data Deletion Request
 include_in_header: false
 ---
