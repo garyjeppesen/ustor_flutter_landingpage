@@ -35,5 +35,4 @@ Upon receiving your request, we will:
 
 Please note that some information might be retained for legal, security, or business purposes as outlined in our privacy policy.
 
-{: .notice}
 > **Processing Time**: Please allow up to 30 days for your request to be processed. We will send you a confirmation email once the deletion is complete.
