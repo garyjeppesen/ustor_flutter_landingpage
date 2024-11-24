@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Deletion Request
-permalink: /data-deletion/
+include_in_header: false
 ---
 
 # Data Deletion Request
