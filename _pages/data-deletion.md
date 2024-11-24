@@ -10,7 +10,7 @@ We value your privacy and ensure that you have control over your personal data. 
 
 ## Option 1: Email Request
 
-Send an email to [your-email@domain.com](mailto:your-email@domain.com) with the subject line "Data Deletion Request"
+Send an email to [support@ustor.xyz](mailto:support@ustor.xyz) with the subject line "Data Deletion Request"
 
 Please include:
 * Your full name
