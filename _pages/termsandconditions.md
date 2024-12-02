@@ -57,7 +57,7 @@ The App may integrate with third-party services such as Firebase and Google Stor
 
 ## 6. **Privacy Policy**
 
-Your use of the App is also governed by our [Privacy Policy](#), which is incorporated into these Terms by reference. Please review our Privacy Policy to understand our practices regarding your personal information.
+Your use of the App is also governed by our [Privacy Policy](/privacypolicy), which is incorporated into these Terms by reference. Please review our Privacy Policy to understand our practices regarding your personal information.
 
 ## 7. **Disclaimers**
 
@@ -98,6 +98,6 @@ If you have any questions or concerns about these Terms, please contact us at:
 **Phone:** (813) 252-0901
 
 ## **Other Information**
-If you wish to delete your account, you can do so here: [Data Deletion Request](#)
+If you wish to delete your account, you can do so here: [Data Deletion Request](/data-deletion)
 
 ---
