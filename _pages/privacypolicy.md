@@ -112,7 +112,7 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:
 
-**MyMetrix Inc.**  
+**MyMetrix LLC**  
 **Email:** suppport@mymetrix.com  
 **Phone:** (813) 252-0901
 
