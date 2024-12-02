@@ -8,7 +8,7 @@ include_in_header: true
 
 _Last Updated: April 27, 2024_
 
-Welcome to uStor ("we," "our," or "us"). These Terms of Service ("Terms") govern your access to and use of our mobile application, uStor ("App"), provided by MyMetrix Inc., a Florida Corporation ("Company"). By downloading, accessing, or using the App, you agree to be bound by these Terms. If you do not agree with these Terms, please do not use the App.
+Welcome to uStor ("we," "our," or "us"). These Terms of Service ("Terms") govern your access to and use of our mobile application, uStor ("App"), provided by MyMetrix LLC., a Florida Corporation ("Company"). By downloading, accessing, or using the App, you agree to be bound by these Terms. If you do not agree with these Terms, please do not use the App.
 
 ## 1. **Acceptance of Terms**
 
@@ -93,7 +93,7 @@ We may update these Terms from time to time. Any changes will be effective immed
 
 If you have any questions or concerns about these Terms, please contact us at:
 
-**MyMetrix Inc.**  
+**MyMetrix LLC**  
 **Email:** support@mymetrix.com  
 **Phone:** (813) 252-0901
 
