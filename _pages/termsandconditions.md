@@ -97,4 +97,7 @@ If you have any questions or concerns about these Terms, please contact us at:
 **Email:** support@mymetrix.com  
 **Phone:** (813) 252-0901
 
+## **Other Information**
+If you wish to delete your account, you can do so here: https://ustor.xyz/data-deletion/
+
 ---
