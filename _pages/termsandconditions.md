@@ -4,100 +4,101 @@ title: Terms & Conditions
 include_in_header: true
 ---
 
-# Terms of Service for uStor
+# Terms and Conditions for uStor
 
-_Last Updated: April 27, 2024_
+_Last Updated: December 19, 2024_
 
-Welcome to uStor ("we," "our," or "us"). These Terms of Service ("Terms") govern your access to and use of our mobile application, uStor ("App"), provided by MyMetrix LLC., a Florida Corporation ("Company"). By downloading, accessing, or using the App, you agree to be bound by these Terms. If you do not agree with these Terms, please do not use the App.
+**MyMetrix LLC** (“Company,” “we,” “our,” or “us”) provides the **uStor** mobile application (“App”) and related services (collectively, the “Services”) subject to the following Terms and Conditions (“Terms”). By accessing, downloading, installing, or using the App, you acknowledge and agree to be bound by these Terms. If you do not agree, you must immediately cease using the App.
 
-## 1. **Acceptance of Terms**
+## 1. Acceptance of Terms
 
-By creating an account or using the App, you affirm that you are at least 13 years old and are fully able and competent to enter into and comply with these Terms. If you are using the App on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms.
+You represent and warrant that you are at least 18 years of age, or the age of majority in your jurisdiction, and have the capacity to enter into a legally binding agreement. If you are using the App on behalf of a company or other legal entity, you represent that you have the authority to bind that entity to these Terms. If you do not have such authority or do not agree with these Terms, you must not use the App.
 
-## 2. **Use of the App**
+## 2. License and Restrictions
 
-### **a. License Grant**
+We grant you a limited, non-exclusive, non-transferable, revocable license to access and use the App solely for personal, non-commercial purposes, and strictly in accordance with these Terms.
 
-We grant you a non-exclusive, non-transferable, revocable license to access and use the App strictly in accordance with these Terms.
+You agree that you will NOT:  
+- Use the App for any unlawful purpose or in violation of any applicable law, regulation, or court order.  
+- Modify, reverse-engineer, disassemble, decompile, or create derivative works from any part of the App.  
+- Attempt to gain unauthorized access to any systems or networks connected to the App or our servers.  
+- Interfere with or disrupt the integrity or performance of the App.  
+- Use the App to store or transmit infringing, libelous, or otherwise unlawful material.
 
-### **b. User Account**
+## 3. User Accounts and Security
 
-- **Registration:** You may be required to create an account to use certain features of the App. You agree to provide accurate and complete information during registration.
-- **Account Security:** You are responsible for maintaining the confidentiality of your account credentials and are fully responsible for all activities that occur under your account.
+You may be required to create an account to use certain features of the App. You agree to:  
+- Provide accurate, current, and complete information when creating an account.  
+- Maintain the security and confidentiality of your login credentials.  
+- Immediately notify us at [support@mymetrix.co](mailto:support@mymetrix.co) of any unauthorized use or breach of security concerning your account.  
+You are solely responsible for all activities that occur under your account.
 
-### **c. Prohibited Activities**
+## 4. User Content and Data
 
-You agree not to:
+You retain all rights to any content, data, or information (“User Content”) you upload or submit to the App. By providing User Content, you grant the Company a non-exclusive, worldwide, royalty-free, fully paid-up, sublicensable, and transferable license to use, reproduce, display, modify, and distribute your User Content solely for the purpose of providing and improving the Services.
 
-- Use the App for any unlawful purpose or in violation of any applicable laws.
-- Upload or transmit any content that is defamatory, obscene, offensive, or infringes on the rights of others.
-- Attempt to gain unauthorized access to any portion of the App or any other systems or networks connected to the App.
+You acknowledge and agree that:  
+- You are solely responsible for your User Content.  
+- We are not responsible or liable for the accuracy, quality, legality, or reliability of your User Content.  
+- The Company may, at its sole discretion, remove or disable any User Content that violates these Terms or is otherwise objectionable.
 
-## 3. **User Content**
+## 5. Ownership and Intellectual Property
 
-### **a. Ownership**
+All rights, title, and interest in and to the App and its underlying technology, including but not limited to software, code, trademarks, service marks, logos, and trade secrets, belong exclusively to the Company or its licensors. Nothing in these Terms grants you any license or right to use any trademark or intellectual property displayed in the App except as expressly set forth herein.
 
-You retain ownership of all content, including images and item information, that you upload to the App ("User Content").
+## 6. Third-Party Services and Integrations
 
-### **b. License to Company**
+The App may integrate with, or rely upon, third-party services (including but not limited to Firebase Authentication, Firestore Database, Google Storage, Firebase Functions, and Firebase Crashlytics). Your use of these third-party services is subject to their respective terms and privacy policies. We make no representations or warranties and assume no liability regarding the practices, reliability, or performance of any third-party service.
 
-By uploading User Content, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, and display the User Content solely for the purpose of providing and improving the App.
+## 7. Data Storage and Loss
 
-### **c. Responsibility for Content**
+You acknowledge and agree that all information is stored in the cloud or on Company-controlled infrastructure. While we take reasonable steps to protect and preserve your data, you understand that there is an inherent risk of data loss, corruption, or unavailability. **We assume no responsibility or liability for the deletion, failure to store, or loss of any data, including User Content.** You are strongly advised to maintain independent copies or backups of any data you consider valuable.
 
-You are solely responsible for your User Content. We do not endorse any User Content and expressly disclaim any liability arising from it.
+## 8. Disclaimer of Warranties and Limitation of Liability
 
-## 4. **Intellectual Property Rights**
+### Disclaimer of Warranties
 
-All intellectual property rights in the App, including but not limited to software, text, graphics, logos, and trademarks, are owned by or licensed to the Company. You are granted no right or license to use any of these intellectual property rights except as expressly provided in these Terms.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE APP AND ALL SERVICES ARE PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. THIS INCLUDES, WITHOUT LIMITATION, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, AND ANY WARRANTY ARISING OUT OF COURSE OF DEALING, USAGE, OR TRADE. WE DO NOT WARRANT THAT THE APP WILL BE UNINTERRUPTED, ERROR-FREE, SECURE, ACCURATE, OR RELIABLE, OR THAT ANY DEFECTS WILL BE CORRECTED.
 
-## 5. **Third-Party Services**
+YOU ACKNOWLEDGE THAT SOFTWARE, CODE, AND SERVICES MAY CONTAIN BUGS, DEFECTS, ERRORS, OR INACCURACIES THAT COULD CAUSE SYSTEM FAILURES, DATA LOSS, OR OTHER HARM. YOU AGREE THAT ANY USE OF THE APP IS AT YOUR OWN RISK.
 
-The App may integrate with third-party services such as Firebase and Google Storage. Your use of these third-party services is subject to their respective terms and privacy policies. We are not responsible for the practices of any third-party service providers.
+### Limitation of Liability
 
-## 6. **Privacy Policy**
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:  
+- IN NO EVENT WILL THE COMPANY, ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, AFFILIATES, OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, REVENUE, DATA, OR GOODWILL, WHETHER BASED IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR OTHERWISE, ARISING OUT OF OR RELATED TO THESE TERMS OR YOUR USE OF THE APP, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  
+- OUR TOTAL LIABILITY TO YOU FOR ANY CLAIM ARISING OUT OF OR RELATED TO THESE TERMS OR THE APP SHALL NOT EXCEED THE TOTAL AMOUNT OF FEES PAID BY YOU TO US (IF ANY) FOR THE USE OF THE APP IN THE TWELVE (12) MONTHS PRECEDING THE EVENT GIVING RISE TO THE LIABILITY. IF NO FEES WERE PAID, OUR LIABILITY SHALL NOT EXCEED ONE HUNDRED U.S. DOLLARS ($100).
 
-Your use of the App is also governed by our [Privacy Policy](https://ustor.xyz/privacypolicy), which is incorporated into these Terms by reference. Please review our Privacy Policy to understand our practices regarding your personal information.
+THIS LIMITATION OF LIABILITY APPLIES TO THE FULLEST EXTENT PERMITTED BY LAW AND SHALL SURVIVE TERMINATION OR EXPIRATION OF THESE TERMS.
 
-## 7. **Disclaimers**
+## 9. Indemnification
 
-### **a. No Warranties**
+You agree to indemnify, defend, and hold harmless the Company, its officers, directors, employees, affiliates, agents, and licensors from and against any claims, losses, liabilities, damages, costs, or expenses (including reasonable attorneys’ fees) arising out of or related to:  
+- Your use or misuse of the App;  
+- Your User Content;  
+- Your violation of these Terms;  
+- Your violation of any third-party rights, including intellectual property or privacy rights.
 
-The App is provided on an "as-is" and "as-available" basis. We make no warranties, express or implied, regarding the App, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.
+## 10. Suspension and Termination
 
-### **b. Limitation of Liability**
+We reserve the right, in our sole discretion, to suspend, restrict, or terminate your access to the App, with or without notice, for any reason or no reason, including if we believe you have violated these Terms. Upon termination, the licenses and rights granted to you shall cease immediately. Any sections that by their nature should survive termination (e.g., Disclaimer of Warranties, Limitation of Liability, Indemnification) shall survive.
 
-To the fullest extent permitted by law, the Company shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the App.
+## 11. Governing Law and Jurisdiction
 
-## 8. **Indemnification**
+These Terms shall be governed by and construed in accordance with the laws of the State of Florida, without regard to its conflict of law principles. Any dispute arising out of or relating to these Terms or the App shall be submitted to the exclusive jurisdiction of the state and federal courts located in Hillsborough County, Florida. You expressly consent to such jurisdiction and venue.
 
-You agree to indemnify, defend, and hold harmless the Company, its affiliates, officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses arising from your use of the App or violation of these Terms.
+## 12. Changes to the Terms
 
-## 9. **Termination**
+We reserve the right to modify these Terms at any time. Any changes will become effective when posted. Your continued use of the App after the posting of revised Terms constitutes your acceptance of such changes. If you do not agree to the modified Terms, you must discontinue use of the App.
 
-We reserve the right to suspend or terminate your access to the App at any time, with or without cause or notice, including if you breach any provision of these Terms.
+## 13. Entire Agreement and Severability
 
-## 10. **Governing Law**
+These Terms, together with our [Privacy Policy](https://ustor.xyz/privacypolicy) and any other agreements or policies referenced herein, constitute the entire agreement between you and the Company regarding your use of the App and supersede all prior or contemporaneous communications. If any provision of these Terms is deemed invalid, void, or unenforceable, that provision shall be severed, and the remaining provisions shall remain in full force and effect.
 
-These Terms shall be governed by and construed in accordance with the laws of the State of Florida, without regard to its conflict of law provisions.
+## 14. Contact Us
 
-## 11. **Dispute Resolution**
-
-Any disputes arising out of or relating to these Terms or the App shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association.
-
-## 12. **Changes to These Terms**
-
-We may update these Terms from time to time. Any changes will be effective immediately upon posting the revised Terms. Your continued use of the App after the posting of revised Terms constitutes your acceptance of such changes.
-
-## 13. **Contact Us**
-
-If you have any questions or concerns about these Terms, please contact us at:
+If you have any questions, concerns, or comments about these Terms, please contact us at:
 
 **MyMetrix LLC**  
-**Email:** support@mymetrix.com  
-**Phone:** (813) 252-0901
+**Email:** [support@mymetrix.co](mailto:support@mymetrix.co)
 
-## **Other Information**
-If you wish to delete your account, you can do so here: [Data Deletion Request](https://ustor.xyz/data-deletion)
-
----
+By using uStor, you acknowledge that you have read, understood, and agree to these Terms and Conditions.
