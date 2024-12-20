@@ -9,8 +9,8 @@ Welcome to uStor - the best app providing you a reliable way track of your items
 <br>
 
 ### `Inital Release`
-# **Version 1.0.5**
-This is the first version of our newly released app. uStor will receive aggressive updates as we get additional users and find items we want to work on.
+# **Version 1.0.27**
+We continue to work hard to provide functionality to make uStor more useful.
 
 #### What's New
 - Everything is new!
