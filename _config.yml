@@ -1,6 +1,10 @@
 # Page title
 page_title: uStor
 
+# Site Settings
+url: "http://mymetrix.co"               # Your custom domain without trailing slash
+baseurl: "/ustor_landingpage"           # Your site's subpath
+
 # App Info
 ios_app_id: 6738139909
 ios_app_country: us
@@ -32,13 +36,13 @@ features:
   - title: Location Tracking
     description: Know exactly where everything is stored, from basement to storage unit and everywhere between.
     fontawesome_icon_name: magic
-    
+
   - title: Photo Documentation
     description: Snap pictures of box contents for perfect recall without opening boxes.
     fontawesome_icon_name: mobile
 
   - title: Custom Categories
-    description: Organize your way with personalized rooms, categories and box types.
+    description: Organize your way with personalized rooms, categories, and box types.
     fontawesome_icon_name: play-circle
 
   - title: Move Planning
@@ -48,7 +52,7 @@ features:
   - title: Content Details
     description: Add notes, descriptions, and item lists to each box for complete documentation.
     fontawesome_icon_name: adjust
-  
+
   - title: Visual Organization
     description: Use custom icons and categories to make finding items intuitive and quick.
     fontawesome_icon_name: star
