@@ -1,11 +1,9 @@
-# Site Settings
-title: "uStor"
-description: "Easily Organize Your Storage Spaces!"
-url: "http://mymetrix.co"           # Your custom domain without trailing slash
-baseurl: "/ustor_landingpage"      # Your site's subpath
-
-# Page Title
+# Page title
 page_title: uStor
+
+# Site Settings
+url: "http://mymetrix.co"
+baseurl: "/ustor_landingpage"
 
 # App Info
 ios_app_id: 6738139909
@@ -13,14 +11,11 @@ ios_app_country: us
 appstore_link: https://apps.apple.com/us/app/ustor/id6738139909
 playstore_link: https://play.google.com/store/apps/details?id=com.mymetrixllc.ustor
 presskit_download_link: https://mymetrix.co
-
 app_icon: assets/ustor0.png
 app_name: uStor Mobile Storage App
-app_price: 
+app_price:
 app_description: Easily Organize Your Storage Spaces!
-
 enable_smart_app_banner: true
-
 google_analytics: G-R187ZK9TML
 
 # Information About Yourself
@@ -41,13 +36,13 @@ features:
   - title: Location Tracking
     description: Know exactly where everything is stored, from basement to storage unit and everywhere between.
     fontawesome_icon_name: magic
-  
+    
   - title: Photo Documentation
     description: Snap pictures of box contents for perfect recall without opening boxes.
     fontawesome_icon_name: mobile
 
   - title: Custom Categories
-    description: Organize your way with personalized rooms, categories and box types
+    description: Organize your way with personalized rooms, categories and box types.
     fontawesome_icon_name: play-circle
 
   - title: Move Planning
@@ -57,9 +52,9 @@ features:
   - title: Content Details
     description: Add notes, descriptions, and item lists to each box for complete documentation.
     fontawesome_icon_name: adjust
-
+  
   - title: Visual Organization
-    description: Use custom icons and categories to make finding items intuitive and quick
+    description: Use custom icons and categories to make finding items intuitive and quick.
     fontawesome_icon_name: star
 
   - title: Quick Search
@@ -82,30 +77,21 @@ features:
 topbar_color: "#000000"
 topbar_transparency: 0.1
 topbar_title_color: "#ffffff"
-
 cover_image: assets/05.png
 cover_overlay_color: "#363b3d"
 cover_overlay_transparency: 0.8
-
 device_color: black
-
 body_background_color: "#ffffff"
-
 link_color: "#1d63ea"
-
 app_title_color: "#ffffff"
 app_price_color: "#ffffff"
 app_description_color: "#ffffff"
-
 feature_title_color: "#000000"
 feature_text_color: "#666666"
-
 feature_icons_foreground_color: "#1d63ea"
 feature_icons_background_color: "#e6e6e6"
-
 social_icons_foreground_color: "#666666"
 social_icons_background_color: "#e6e6e6"
-
 footer_text_color: "#666666"
 
 ####################################################
@@ -129,7 +115,7 @@ collections:
 
 plugins:
   - jekyll-sitemap
-  # - jekyll-seo-tag # Removed to ensure compatibility with GitHub Pages
+  - jekyll-seo-tag
 
 # Markdown rendering
 markdown: kramdown
