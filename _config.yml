@@ -141,7 +141,6 @@ collections:
 
 plugins:
   - jekyll-sitemap
-  - jekyll-seo-tag
 
 # Markdown rendering
 markdown: kramdown
