@@ -1,10 +1,6 @@
 # Page title
 page_title: uStor
 
-# Site Settings
-url: "http://mymetrix.co"
-baseurl: "/ustor_landingpage"
-
 # App Info
 ios_app_id: 6738139909
 ios_app_country: us
