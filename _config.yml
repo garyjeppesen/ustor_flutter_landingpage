@@ -139,6 +139,7 @@ collections:
     output: true
     permalink: /:path/
 
+url: "https://ustor.xyz" #base hostname & protocol for our site
 plugins:
   - jekyll-sitemap
 
