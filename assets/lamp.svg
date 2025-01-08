@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 24 24" id="lamp">
+  <path fill="#303C42" d="M12 1C2.172 1 1.015 9.354 1.004 9.438A.502.502 0 0 0 1.5 10H11v1.278c-.595.347-1 .985-1 1.722v7H8.5A2.502 2.502 0 0 0 6 22.5a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5c0-1.379-1.121-2.5-2.5-2.5H14v-7c0-.737-.405-1.375-1-1.722V10h2v4.5a.5.5 0 1 0 1 0V10h6.5a.5.5 0 0 0 .496-.563C22.986 9.354 21.828 1 12 1z"></path>
+  <path fill="#F78C1E" d="M16.914 22H7.086c.206-.582.762-1 1.414-1h7c.652 0 1.208.418 1.414 1z"></path>
+  <path fill="#FFF" d="M9.414 21.5h7c.077 0 .146.024.22.035A1.487 1.487 0 0 0 15.5 21h-7c-.652 0-1.208.418-1.414 1h1.23c.275-.3.66-.5 1.098-.5z" opacity=".2"></path>
+  <path fill="#F78C1E" d="M11 20v-7a1 1 0 0 1 2 0v7h-2z"></path>
+  <path fill="#FFF" d="M11.5 13.5a1 1 0 0 1 1-1 .98.98 0 0 1 .408.092A.998.998 0 0 0 11 13v7h.5v-6.5z" opacity=".2"></path>
+  <path fill="#9CCC65" d="M2.104 9C2.518 7.236 4.39 2 12 2c7.584 0 9.474 5.235 9.895 7H2.104z"></path>
+  <linearGradient id="a" x1="4.417" x2="20.843" y1="3.597" y2="11.256" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FFF" stop-opacity=".2"></stop>
+    <stop offset="1" stop-color="#FFF" stop-opacity="0"></stop>
+  </linearGradient>
+  <path fill="url(#a)" d="M2.104 9C2.518 7.236 4.39 2 12 2c7.584 0 9.474 5.235 9.895 7H2.104z"></path>
+  <path fill="#010101" d="M12 2c4.982 0 6.224 5.235 6.5 7h3.395C21.474 7.235 19.584 2 12 2z" opacity=".1"></path>
+  <path fill="#FFF" d="M12 2C4.39 2 2.517 7.236 2.103 9h3.394C5.77 7.236 7 2 11.999 2z" opacity=".2"></path>
+  <linearGradient id="b" x1="1.456" x2="20.767" y1="7.671" y2="16.677" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FFF" stop-opacity=".2"></stop>
+    <stop offset="1" stop-color="#FFF" stop-opacity="0"></stop>
+  </linearGradient>
+  <path fill="url(#b)" d="M12 1C2.172 1 1.015 9.354 1.004 9.438A.502.502 0 0 0 1.5 10H11v1.278c-.595.347-1 .985-1 1.722v7H8.5A2.502 2.502 0 0 0 6 22.5a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5c0-1.379-1.121-2.5-2.5-2.5H14v-7c0-.737-.405-1.375-1-1.722V10h2v4.5a.5.5 0 1 0 1 0V10h6.5a.5.5 0 0 0 .496-.563C22.986 9.354 21.828 1 12 1z"></path>
+</svg>
