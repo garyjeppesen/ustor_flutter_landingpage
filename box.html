@@ -101,19 +101,24 @@ permalink: /box/*
     <script>
         function openBox() {
             // Get the full URL
-            var fullPath = window.location.pathname + window.location.search + window.location.hash;
-            
-            // Extract the box ID - everything after the last slash
-            var parts = fullPath.split('/');
-            var boxId = parts[parts.length - 1];
-            
-            // Handle case where URL ends in slash
-            if (!boxId || boxId === '') {
-                boxId = parts[parts.length - 2];
+            var fullPath = window.location.pathname;
+            console.log('Full path:', fullPath);
+    
+            // Extract the box ID - everything after /box/
+            var boxId = fullPath.replace('/box/', '');
+            console.log('Initial boxId:', boxId);
+    
+            // Handle trailing slash and empty cases
+            if (boxId.endsWith('/')) {
+                boxId = boxId.slice(0, -1);
             }
-            
-            // If we still don't have a boxId, show error
+    
+            console.log('Final boxId:', boxId);
+            console.log('Current URL:', window.location.href);
+    
+            // If we don't have a valid boxId, show error
             if (!boxId || boxId === '') {
+                console.log('No valid box ID found');
                 document.getElementById('message').style.display = 'block';
                 document.querySelector('.loading').style.display = 'none';
                 return;
@@ -121,19 +126,21 @@ permalink: /box/*
 
             var ustorUrl = 'ustor://box/' + boxId;
             console.log('Attempting to open:', ustorUrl);
-            
+    
             // Try to open the app
             window.location.href = ustorUrl;
-            
+    
             // Platform detection
             var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
             var isAndroid = /Android/.test(navigator.userAgent);
-            
+            console.log('Platform - iOS:', isIOS, 'Android:', isAndroid);
+    
             // Show fallback after 1.5 seconds
             setTimeout(function() {
+                console.log('Showing fallback message');
                 document.getElementById('message').style.display = 'block';
                 document.querySelector('.loading').style.display = 'none';
-                
+        
                 // Platform-specific store redirects
                 if (isAndroid) {
                     window.location.href = 'market://details?id=com.mymetrixllc.ustor';
@@ -142,6 +149,7 @@ permalink: /box/*
                 }
             }, 1500);
         }
+
 
         // Call openBox when page loads
         document.addEventListener('DOMContentLoaded', openBox);
