@@ -137,25 +137,11 @@ exclude:
 collections:
   pages:
     output: true
+    permalink: /:path/
 
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: "box.html"
-    values:
-      permalink: /box/
-
-include:
-  - _pages
-  - _redirects
-
-url: "https://ustor.xyz"
+url: "https://ustor.xyz" #base hostname & protocol for our site
 plugins:
   - jekyll-sitemap
-  - jekyll-redirect-from
 
+# Markdown rendering
 markdown: kramdown
