@@ -138,7 +138,7 @@ collections:
   pages:
     output: true
     layout: null
-    permalink: /box/*
+    permalink: /box.html
 
 include:
   - _pages
