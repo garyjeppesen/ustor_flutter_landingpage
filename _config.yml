@@ -147,6 +147,7 @@ defaults:
 
 include:
   - _pages
+  - _redirects
 
 url: "https://ustor.xyz"
 plugins:
