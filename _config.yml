@@ -144,6 +144,10 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+  - scope:
+      path: "box.html"
+    values:
+      permalink: /box/
 
 include:
   - _pages
