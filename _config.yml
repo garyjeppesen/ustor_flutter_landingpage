@@ -139,10 +139,12 @@ collections:
     output: true
     permalink: /:path/
 
-url: "https://ustor.xyz" #base hostname & protocol for our site
+include:
+  - _pages
+
+url: "https://ustor.xyz"
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
-# Markdown rendering
 markdown: kramdown
