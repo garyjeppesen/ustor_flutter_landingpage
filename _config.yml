@@ -137,7 +137,13 @@ exclude:
 collections:
   pages:
     output: true
-    permalink: /box/:path
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
 
 include:
   - _pages
