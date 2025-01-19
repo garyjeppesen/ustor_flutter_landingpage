@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^box/(.*)$ /box/$1 [L]
