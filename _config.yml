@@ -137,7 +137,7 @@ exclude:
 collections:
   pages:
     output: true
-    permalink: /:path/
+    permalink: /box/:path
 
 include:
   - _pages
