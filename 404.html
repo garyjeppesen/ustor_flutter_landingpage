@@ -1,11 +1,17 @@
 ---
 permalink: /404.html
-layout: none
+layout: null
 ---
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Page Not Found</title>
+    <script>
+        var path = window.location.pathname;
+        if (path.startsWith('/box/')) {
+            // Preserve the full path for the box handler
+            window.location.href = path;
+        }
+    </script>
 </head>
 <body>
     <p>Page not found. <a href="/">Return home</a></p>
