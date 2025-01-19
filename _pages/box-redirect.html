@@ -1,0 +1,31 @@
+---
+permalink: /box/:id
+redirect_from: 
+  - /box/*
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Opening Box in uStor...</title>
+    <script>
+        function openBox() {
+            var boxId = window.location.pathname.split('/').pop();
+            var ustorUrl = 'ustor://box/' + boxId;
+            var webUrl = 'https://ustor.xyz/box/' + boxId;
+            
+            // Try to open the app
+            window.location.href = ustorUrl;
+            
+            // If app doesn't open within 1 second, redirect to web version
+            setTimeout(function() {
+                window.location.href = webUrl;
+            }, 1000);
+        }
+    </script>
+</head>
+<body onload="openBox()">
+    <h1>Opening box in uStor...</h1>
+    <p>If you have the uStor app installed, it should open automatically.</p>
+    <p>If nothing happens, <a href="#" onclick="openBox()">click here</a>.</p>
+</body>
+</html>
