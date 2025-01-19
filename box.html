@@ -86,7 +86,7 @@ permalink: /box/*
         <div class="loading"></div>
         <h1>Opening Box in uStor...</h1>
         <p>If you have the uStor app installed, it should open automatically.</p>
-        <p>If nothing happens, <a href="#" onclick="openBox(); return false;" class="button">Click here to try again</a></p>
+        <p>If nothing happens, <a href="#" class="try-again button">Click here to try again</a></p>
         
         <div id="message" class="message">
             <p>uStor app not detected on your device.</p>
@@ -95,82 +95,50 @@ permalink: /box/*
                 <a href="https://apps.apple.com/app/apple-store/id6738139909?pt=127435729&ct=uStor%20Landing%20Page&mt=8" class="button">App Store</a>
                 <a href="https://play.google.com/store/apps/details?id=com.mymetrixllc.ustor" class="button">Google Play</a>
             </div>
-            <div id="debug" style="margin-top: 20px; font-size: 12px; color: #666;">
-                <p>Debug info will appear here...</p>
-            </div>
-
-<script>
-    // Add this function at the start of your script section
-    function updateDebug(message) {
-        var debugDiv = document.getElementById('debug');
-        debugDiv.innerHTML += '<p>' + message + '</p>';
-    }
-</script>
         </div>
     </div>
 
     <script>
         function openBox() {
-            // Get the full URL
-            var fullPath = window.location.pathname;
-            console.log('Full path:', fullPath);
-    
-            // Extract the box ID - everything after /box/
-            var boxId = fullPath.replace('/box/', '');
-            console.log('Initial boxId:', boxId);
-    
-            // Handle trailing slash and empty cases
-            if (boxId.endsWith('/')) {
+            var path = window.location.pathname;
+            var boxId = path.split('/box/')[1];
+            
+            if (boxId && boxId.endsWith('/')) {
                 boxId = boxId.slice(0, -1);
             }
-    
-            console.log('Final boxId:', boxId);
-            console.log('Current URL:', window.location.href);
-    
-            // If we don't have a valid boxId, show error
+            
             if (!boxId || boxId === '') {
-                console.log('No valid box ID found');
-                document.getElementById('message').style.display = 'block';
+                document.querySelector('.message').style.display = 'block';
                 document.querySelector('.loading').style.display = 'none';
                 return;
             }
 
             var ustorUrl = 'ustor://box/' + boxId;
-            console.log('Attempting to open:', ustorUrl);
-    
-            // Try to open the app
             window.location.href = ustorUrl;
-    
-            // Platform detection
+            
             var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
             var isAndroid = /Android/.test(navigator.userAgent);
-            console.log('Platform - iOS:', isIOS, 'Android:', isAndroid);
-    
-            // Show fallback after 1.5 seconds
+            
             setTimeout(function() {
-                console.log('Showing fallback message');
-                document.getElementById('message').style.display = 'block';
-                document.querySelector('.loading').style.display = 'none';
-        
-                // Platform-specific store redirects
-                if (isAndroid) {
-                    window.location.href = 'market://details?id=com.mymetrixllc.ustor';
-                } else if (isIOS) {
-                    window.location.href = 'https://apps.apple.com/app/apple-store/id6738139909?pt=127435729&ct=uStor%20Landing%20Page&mt=8';
-                }
+                var messageEl = document.querySelector('.message');
+                var loadingEl = document.querySelector('.loading');
+                
+                if (messageEl) messageEl.style.display = 'block';
+                if (loadingEl) loadingEl.style.display = 'none';
             }, 1500);
         }
 
+        // Wait for DOM to be ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', openBox);
+        } else {
+            openBox();
+        }
 
-        // Call openBox when page loads
-        document.addEventListener('DOMContentLoaded', openBox);
-
-        // Handle visibility change
-        document.addEventListener('visibilitychange', function() {
-            if (!document.hidden) {
-                document.getElementById('message').style.display = 'block';
-                document.querySelector('.loading').style.display = 'none';
-            }
+        // Handle try again button
+        document.querySelector('.try-again').addEventListener('click', function(e) {
+            e.preventDefault();
+            openBox();
         });
     </script>
 </body>
