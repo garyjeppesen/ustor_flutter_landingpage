@@ -1,5 +1,6 @@
 ---
-permalink: /box/:path/
+layout: null
+permalink: /box/
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -80,7 +81,7 @@ permalink: /box/:path/
         }
     </style>
 </head>
-<body onload="openBox()">
+<body>
     <div class="container">
         <div class="loading"></div>
         <h1>Opening Box in uStor...</h1>
@@ -99,50 +100,55 @@ permalink: /box/:path/
 
     <script>
         function openBox() {
-            // Get everything after /box/
-            var path = window.location.pathname;
-            var boxId = path.split('/box/')[1];
+            // Get the full URL
+            var fullPath = window.location.pathname + window.location.search + window.location.hash;
             
-            // Handle potential trailing slash
-            if (boxId && boxId.endsWith('/')) {
-                boxId = boxId.slice(0, -1);
+            // Extract the box ID - everything after the last slash
+            var parts = fullPath.split('/');
+            var boxId = parts[parts.length - 1];
+            
+            // Handle case where URL ends in slash
+            if (!boxId || boxId === '') {
+                boxId = parts[parts.length - 2];
             }
             
-            // Ensure we have a valid boxId
-            if (!boxId) {
+            // If we still don't have a boxId, show error
+            if (!boxId || boxId === '') {
                 document.getElementById('message').style.display = 'block';
+                document.querySelector('.loading').style.display = 'none';
                 return;
             }
 
             var ustorUrl = 'ustor://box/' + boxId;
+            console.log('Attempting to open:', ustorUrl);
             
             // Try to open the app
             window.location.href = ustorUrl;
             
-            // On iOS, we can try using a timeout to detect if the app isn't installed
+            // Platform detection
             var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
             var isAndroid = /Android/.test(navigator.userAgent);
             
-            // If app doesn't open within 1.5 seconds, show install message
+            // Show fallback after 1.5 seconds
             setTimeout(function() {
                 document.getElementById('message').style.display = 'block';
                 document.querySelector('.loading').style.display = 'none';
                 
-                // If on Android, we can try to open the Play Store directly
+                // Platform-specific store redirects
                 if (isAndroid) {
                     window.location.href = 'market://details?id=com.mymetrixllc.ustor';
-                }
-                // If on iOS, we can try to open the App Store directly
-                else if (isIOS) {
+                } else if (isIOS) {
                     window.location.href = 'https://apps.apple.com/app/apple-store/id6738139909?pt=127435729&ct=uStor%20Landing%20Page&mt=8';
                 }
             }, 1500);
         }
 
-        // Handle visibility change (user returns from app store)
+        // Call openBox when page loads
+        document.addEventListener('DOMContentLoaded', openBox);
+
+        // Handle visibility change
         document.addEventListener('visibilitychange', function() {
             if (!document.hidden) {
-                // If user returns to this page, show the message
                 document.getElementById('message').style.display = 'block';
                 document.querySelector('.loading').style.display = 'none';
             }
