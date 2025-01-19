@@ -1,31 +1,35 @@
----
-permalink: /box/:id
-redirect_from: 
-  - /box/*
----
 <!DOCTYPE html>
 <html>
 <head>
     <title>Opening Box in uStor...</title>
     <script>
         function openBox() {
-            var boxId = window.location.pathname.split('/').pop();
+            // Get everything after /box/
+            var path = window.location.pathname;
+            var boxId = path.substring(path.lastIndexOf('/') + 1);
             var ustorUrl = 'ustor://box/' + boxId;
-            var webUrl = 'https://ustor.xyz/box/' + boxId;
             
             // Try to open the app
             window.location.href = ustorUrl;
             
-            // If app doesn't open within 1 second, redirect to web version
+            // If app doesn't open within 1 second, redirect to web view
             setTimeout(function() {
-                window.location.href = webUrl;
+                // Since we don't have a web view, you might want to show a message
+                document.getElementById('message').style.display = 'block';
             }, 1000);
         }
     </script>
 </head>
 <body onload="openBox()">
-    <h1>Opening box in uStor...</h1>
-    <p>If you have the uStor app installed, it should open automatically.</p>
-    <p>If nothing happens, <a href="#" onclick="openBox()">click here</a>.</p>
+    <div style="text-align: center; padding: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+        <h1>Opening box in uStor...</h1>
+        <p>If you have the uStor app installed, it should open automatically.</p>
+        <p>If nothing happens, <a href="#" onclick="openBox()">click here</a>.</p>
+        <div id="message" style="display: none; margin-top: 20px; padding: 10px; background-color: #f8f9fa; border-radius: 4px;">
+            <p>uStor app not found.</p>
+            <p>To view this box, please install uStor from:</p>
+            <p><a href="[Your App Store Link]" style="color: #007bff;">App Store</a> or <a href="[Your Play Store Link]" style="color: #007bff;">Google Play</a></p>
+        </div>
+    </div>
 </body>
 </html>
