@@ -142,6 +142,7 @@ collections:
 url: "https://ustor.xyz" #base hostname & protocol for our site
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Markdown rendering
 markdown: kramdown
