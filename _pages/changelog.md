@@ -5,7 +5,7 @@ include_in_header: true
 ---
 
 # Changelog
-Welcome to uStor - the best app providing you a reliable way track of your items that are in storage.
+Welcome to uStor - the best app providing you a reliable way to track all of your items that are in storage.
 <br>
 
 # **Version 1.2.X**
